@@ -7,31 +7,31 @@ import './quizmain.css'
 export default class Quiz extends Component{
   state = {
     questions:{
-      1: 'What US city is known a the birthplace of jazz?',
-      2: 'What is the capital of greece?',
-      3: 'what planet gave birth to superman?'
+      1: 'When was github founded?',
+      2: 'What is the capital of india?',
+      3: 'Which is the largest country in the world?'
 
     },
     answers: {
       1: {
-        1:'chicago',
-        2:'lagos',
-        3:'ogunstate'
+        1:'2006',
+        2:'2007',
+        3:'2008'
       },
       2: {
-        1:'Athens',
-        2:'mexico',
-        3:'okofo'
+        1:'New Delhi',
+        2:'Mexico',
+        3:'Abuja'
       },
       3: {
-        1:'Athens',
-        2:'mexico',
-        3:'okofo'
+        1:'India',
+        2:'USA',
+        3:'Russia'
       }
     },
     correctAnswers:{
-      1:'2',
-      2:'3',
+      1:'3',
+      2:'1',
       3:'3'
     },
     correctAnswer:0,
